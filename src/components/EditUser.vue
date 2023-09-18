@@ -106,7 +106,7 @@ export default {
           office: this.$refs.office.value,
         }
         this.$store.commit('editUser', user)
-        alert('Uspeno izmenjen user')
+        alert('Usjesno izmjenjen user')
       } else {
         alert('Polja nisu popunjena')
       }

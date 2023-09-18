@@ -9,7 +9,7 @@
         >
           <v-app-bar flat color="rgba(0, 0, 0, 0)">
             <v-toolbar-title class="text-h6 indigo--text pl-0">
-              Opis rada
+              FPMOZ stranica
             </v-toolbar-title>
 
             <v-spacer></v-spacer>
@@ -56,7 +56,9 @@ export default {
   data: () => ({
     messages: [
       {
-        message: ` U ovome projektu koristimo Hacker News up koji nam donosi vijesti. Vijesti mogu da se filtriraju po tipu i datumu.`,
+        message: `Ova stranica je rezultat rada na kolegiju Informaticki projekt 2.
+        Koristimo Hacker News up koji nam donosi vijesti.
+        Vijesti mogu da se filtriraju po tipu i datumu.`,
       },
       {
         message: `Imamo funkciju pretrazivanja kako bi nam olaksalo pregledavanje vijesti`,
